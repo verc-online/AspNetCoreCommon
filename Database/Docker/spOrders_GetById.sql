@@ -1,4 +1,4 @@
-CREATE PROCEDURE [dbo].[spFood_All] 
+CREATE PROCEDURE [dbo].[spOrders_GetById] 
     @Id int
 AS
 begin

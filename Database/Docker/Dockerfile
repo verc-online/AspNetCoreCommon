@@ -13,7 +13,7 @@ COPY spOrders_Insert.sql .
 COPY spOrders_UpdateName.sql . 
 
 
-RUN /opt/mssql/bin/sqlservr --accept-eula & sleep 10 \
+RUN /opt/mssql/bin/sqlservr --accept-eula & sleep 20 \
     && /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "Pwd12345" -i /tmp/CreateDatabase.sql \
     && /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "Pwd12345" -i /tmp/PostDeployment.sql \
     && /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "Pwd12345" -i /tmp/spFood_All.sql \

@@ -1,4 +1,4 @@
-CREATE PROCEDURE [dbo].[spOrders_UpdateName] 
+CREATE PROCEDURE [dbo].[spOrders_Delete] 
     @Id int
 AS
 begin

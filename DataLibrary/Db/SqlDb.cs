@@ -1,6 +1,6 @@
 using System.Data;
 using Dapper;
-using Microsoft.Data.SqlClient;
+using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
 namespace DataLibrary.Db;
