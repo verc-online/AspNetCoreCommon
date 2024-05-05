@@ -1,4 +1,4 @@
-@page "/Order/Create"
+ @page "/Order/Create"
 
 @using BlazorClientDemoApp.Models
 @using DataLibrary.Models
@@ -84,7 +84,7 @@ else
             var response = await Http.PostAsJsonAsync("api/Order", order);
             var contents = await response.Content.ReadFromJsonAsync<OrderCreateResultsModel>();
             order = new();
-            // navigationManager.NavigateTo($"order/display/P{contents.Id}");
+            navigationManager.NavigateTo($"order/display/P{contents.Id}");
         }
         catch (Exception e)
         {

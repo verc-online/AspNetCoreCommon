@@ -1,21 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.10
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{7B1B1524-9A14-4A4B-9A3E-B9FC9A81BA7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{7B1B1524-9A14-4A4B-9A3E-B9FC9A81BA7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{6E82FFD8-B102-44E0-A474-FC0D18BCD12E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{6E82FFD8-B102-44E0-A474-FC0D18BCD12E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpDemoApp", "RpDemoApp\RpDemoApp.csproj", "{1E3081ED-0246-490B-BDA8-6D460BBD8950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpDemoApp", "RpDemoApp\RpDemoApp.csproj", "{1E3081ED-0246-490B-BDA8-6D460BBD8950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemoApp", "MvcDemoApp\MvcDemoApp.csproj", "{EFE5C062-9FE5-433A-81E0-175275006DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcDemoApp", "MvcDemoApp\MvcDemoApp.csproj", "{EFE5C062-9FE5-433A-81E0-175275006DA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemoApp", "ApiDemoApp\ApiDemoApp.csproj", "{DDCFF410-1022-4A00-B82E-EC622B8B7B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDemoApp", "ApiDemoApp\ApiDemoApp.csproj", "{DDCFF410-1022-4A00-B82E-EC622B8B7B96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerDemoApp", "BlazorServerDemoApp\BlazorServerDemoApp.csproj", "{D7B729CA-4F44-4D61-AA67-129DD816A890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerDemoApp", "BlazorServerDemoApp\BlazorServerDemoApp.csproj", "{D7B729CA-4F44-4D61-AA67-129DD816A890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorClientDemoApp", "BlazorClientDemoApp\BlazorClientDemoApp.csproj", "{F2A0269E-1102-4EEA-B9DA-F84D15DC48B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorClientDemoApp", "BlazorClientDemoApp\BlazorClientDemoApp.csproj", "{F2A0269E-1102-4EEA-B9DA-F84D15DC48B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
